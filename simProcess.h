@@ -29,7 +29,7 @@ class simProcess {
   inline unsigned int getFinish() const {return fin;}
   inline unsigned int getTurnaround() const {return (fin - arr);}
   inline double getNormalizedTurnaround() const 
-		{return (static_cast<double>(fin - arr + 1.0)/dur);}
+		{return (static_cast<double>(fin - arr)/dur);}
 
   inline void setFinished(unsigned int finished) {fin = finished;}
 

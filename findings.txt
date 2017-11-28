@@ -1,0 +1,9 @@
+The process scheduling algorithms, in order from highest normalized average processing time to lowest are:
+First In First Out
+Round Robin
+Feedback (3 levels)
+Feedback (2 levels)
+
+These results make sense for this input, since the time a process takes isn't very varied. That means that it's better to cycle between them than to drag each process out (as in the case of FIFO, where the difference is around 10 seconds). This also explains why FB2 is slightly faster than FB3, since FB3 drags processes out a little more than FB2. 
+
+However, that being said, if a process is very short, it's best to just get it out of the way, which is why FB3 and FB2 are faster than RR. 
