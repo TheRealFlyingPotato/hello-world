@@ -1,0 +1,884 @@
+desc: --time-unit=B
+cmd: ./prob1
+time_unit: B
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=72712
+mem_heap_B=72704
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=89256
+mem_heap_B=89224
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=112576
+mem_heap_B=97252
+mem_heap_extra_B=380
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=133240
+mem_heap_B=99713
+mem_heap_extra_B=455
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=147168
+mem_heap_B=105030
+mem_heap_extra_B=634
+mem_stacks_B=0
+heap_tree=detailed
+n6: 105030 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n1: 11312 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 11312 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 7921 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 7921 0x401267: main (prob1.cpp:15)
+   n1: 3391 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 3391 0x401267: main (prob1.cpp:15)
+ n1: 2056 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 2056 0x401267: main (prob1.cpp:15)
+ n1: 1921 0x4F56218: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 1921 0x4EDAB83: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n0: 1921 0x401205: main (prob1.cpp:11)
+ n0: 653 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=6
+#-----------
+time=164712
+mem_heap_B=115815
+mem_heap_extra_B=1137
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=184832
+mem_heap_B=114113
+mem_heap_extra_B=1071
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=198912
+mem_heap_B=111589
+mem_heap_extra_B=827
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=214192
+mem_heap_B=116945
+mem_heap_extra_B=1007
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=236960
+mem_heap_B=123580
+mem_heap_extra_B=1476
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=253288
+mem_heap_B=134258
+mem_heap_extra_B=1766
+mem_stacks_B=0
+heap_tree=detailed
+n6: 134258 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 30816 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 30816 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 17190 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 17190 0x401267: main (prob1.cpp:15)
+   n1: 13626 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 13626 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n1: 12304 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 12304 0x401267: main (prob1.cpp:15)
+ n1: 1921 0x4F56218: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 1921 0x4EDAB83: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n0: 1921 0x401205: main (prob1.cpp:11)
+ n0: 129 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=12
+#-----------
+time=266200
+mem_heap_B=146567
+mem_heap_extra_B=2369
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=285728
+mem_heap_B=165074
+mem_heap_extra_B=3390
+mem_stacks_B=0
+heap_tree=detailed
+n6: 165074 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 61632 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 61632 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 44442 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 44442 0x401267: main (prob1.cpp:15)
+   n1: 17190 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 17190 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n1: 12304 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 12304 0x401267: main (prob1.cpp:15)
+ n1: 1921 0x4F56218: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 1921 0x4EDAB83: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n0: 1921 0x401205: main (prob1.cpp:11)
+ n0: 129 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=14
+#-----------
+time=310600
+mem_heap_B=141467
+mem_heap_extra_B=2125
+mem_stacks_B=0
+heap_tree=detailed
+n6: 141467 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 38025 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 38025 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 38025 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 38025 0x401267: main (prob1.cpp:15)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n1: 12304 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 12304 0x401267: main (prob1.cpp:15)
+ n1: 1921 0x4F56218: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 1921 0x4EDAB83: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n0: 1921 0x401205: main (prob1.cpp:11)
+ n0: 129 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=15
+#-----------
+time=325200
+mem_heap_B=131108
+mem_heap_extra_B=1804
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=346384
+mem_heap_B=138149
+mem_heap_extra_B=2091
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=17
+#-----------
+time=366256
+mem_heap_B=143858
+mem_heap_extra_B=2462
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=389720
+mem_heap_B=150993
+mem_heap_extra_B=3159
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=405544
+mem_heap_B=155783
+mem_heap_extra_B=3633
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=422056
+mem_heap_B=172271
+mem_heap_extra_B=3657
+mem_stacks_B=0
+heap_tree=detailed
+n6: 172271 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 56574 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 56574 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 30816 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 30816 0x401267: main (prob1.cpp:15)
+   n1: 25758 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 25758 0x401267: main (prob1.cpp:15)
+ n1: 24592 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 24592 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n1: 1921 0x4F56218: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_mutate(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 1921 0x4EDAB83: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n0: 1921 0x401205: main (prob1.cpp:11)
+ n0: 96 in 2 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=21
+#-----------
+time=441440
+mem_heap_B=190819
+mem_heap_extra_B=4493
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=469472
+mem_heap_B=217300
+mem_heap_extra_B=6044
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=482096
+mem_heap_B=228845
+mem_heap_extra_B=7123
+mem_stacks_B=0
+heap_tree=detailed
+n5: 228845 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 113148 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 113148 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 87390 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 87390 0x401267: main (prob1.cpp:15)
+   n1: 25758 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 25758 0x401267: main (prob1.cpp:15)
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 24592 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 24592 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n0: 2017 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=24
+#-----------
+time=499552
+mem_heap_B=212750
+mem_heap_extra_B=5762
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=25
+#-----------
+time=525000
+mem_heap_B=188747
+mem_heap_extra_B=4317
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=542160
+mem_heap_B=172349
+mem_heap_extra_B=3555
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=565544
+mem_heap_B=169323
+mem_heap_extra_B=3853
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=583824
+mem_heap_B=174330
+mem_heap_extra_B=4390
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=29
+#-----------
+time=599392
+mem_heap_B=179301
+mem_heap_extra_B=4763
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=622584
+mem_heap_B=185967
+mem_heap_extra_B=5625
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=636432
+mem_heap_B=189944
+mem_heap_extra_B=6296
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=664080
+mem_heap_B=198083
+mem_heap_extra_B=7117
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=678632
+mem_heap_B=203664
+mem_heap_extra_B=7592
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=716192
+mem_heap_B=237018
+mem_heap_extra_B=7686
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=35
+#-----------
+time=737560
+mem_heap_B=257463
+mem_heap_extra_B=8609
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=36
+#-----------
+time=751800
+mem_heap_B=270813
+mem_heap_extra_B=9499
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=37
+#-----------
+time=772912
+mem_heap_B=290493
+mem_heap_extra_B=10931
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=38
+#-----------
+time=794032
+mem_heap_B=310067
+mem_heap_extra_B=12477
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=39
+#-----------
+time=819968
+mem_heap_B=333439
+mem_heap_extra_B=15041
+mem_stacks_B=0
+heap_tree=peak
+n5: 333439 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 192842 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 192842 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 152995 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 152995 0x401267: main (prob1.cpp:15)
+   n1: 39847 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 39847 0x401267: main (prob1.cpp:15)
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 49168 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 49168 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n0: 2341 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=40
+#-----------
+time=834032
+mem_heap_B=320578
+mem_heap_extra_B=13838
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=41
+#-----------
+time=855152
+mem_heap_B=301721
+mem_heap_extra_B=11575
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=883760
+mem_heap_B=275264
+mem_heap_extra_B=9424
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=897616
+mem_heap_B=262274
+mem_heap_extra_B=8558
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=918864
+mem_heap_B=241839
+mem_heap_extra_B=7745
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=940392
+mem_heap_B=220626
+mem_heap_extra_B=7430
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=961296
+mem_heap_B=227188
+mem_heap_extra_B=7948
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=975688
+mem_heap_B=231719
+mem_heap_extra_B=8417
+mem_stacks_B=0
+heap_tree=detailed
+n5: 231719 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 107477 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 107477 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 96421 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 96421 0x401267: main (prob1.cpp:15)
+   n1: 11056 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 11056 0x401267: main (prob1.cpp:15)
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 32776 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 32776 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n0: 2378 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=48
+#-----------
+time=1003424
+mem_heap_B=239375
+mem_heap_extra_B=9505
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=1017328
+mem_heap_B=243352
+mem_heap_extra_B=9960
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=50
+#-----------
+time=1029952
+mem_heap_B=247081
+mem_heap_extra_B=10407
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=1043296
+mem_heap_B=251092
+mem_heap_extra_B=10812
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=1055936
+mem_heap_B=255087
+mem_heap_extra_B=11201
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=1068648
+mem_heap_B=258726
+mem_heap_extra_B=11618
+mem_stacks_B=0
+heap_tree=detailed
+n5: 258726 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 134941 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 134941 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 96421 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 96421 0x401267: main (prob1.cpp:15)
+   n1: 38520 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 38520 0x401267: main (prob1.cpp:15)
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 32776 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 32776 0x401267: main (prob1.cpp:15)
+ n1: 16384 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n1: 16384 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+ n0: 1921 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=54
+#-----------
+time=1081384
+mem_heap_B=262780
+mem_heap_extra_B=12028
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=1094080
+mem_heap_B=266339
+mem_heap_extra_B=12621
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=1106704
+mem_heap_B=270003
+mem_heap_extra_B=12973
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=1119704
+mem_heap_B=275502
+mem_heap_extra_B=13194
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=1132648
+mem_heap_B=278816
+mem_heap_extra_B=13352
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=1145320
+mem_heap_B=282880
+mem_heap_extra_B=13512
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=60
+#-----------
+time=1158120
+mem_heap_B=286898
+mem_heap_extra_B=13670
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=1170840
+mem_heap_B=290471
+mem_heap_extra_B=13841
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=1183584
+mem_heap_B=285309
+mem_heap_extra_B=13635
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=1196808
+mem_heap_B=272577
+mem_heap_extra_B=13143
+mem_stacks_B=0
+heap_tree=detailed
+n5: 272577 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 149689 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 149689 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 96421 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 96421 0x401267: main (prob1.cpp:15)
+   n1: 53268 0x40163C: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:51)
+    n0: 53268 0x401267: main (prob1.cpp:15)
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 32776 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 32776 0x401267: main (prob1.cpp:15)
+ n1: 17408 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n2: 17408 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=64
+#-----------
+time=1209616
+mem_heap_B=260938
+mem_heap_extra_B=11974
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=1222296
+mem_heap_B=249451
+mem_heap_extra_B=10781
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=1235200
+mem_heap_B=237922
+mem_heap_extra_B=9406
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=1247856
+mem_heap_B=226645
+mem_heap_extra_B=8027
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=1260496
+mem_heap_B=214970
+mem_heap_extra_B=7062
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=1273200
+mem_heap_B=203538
+mem_heap_extra_B=5790
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=70
+#-----------
+time=1285880
+mem_heap_B=192228
+mem_heap_extra_B=4420
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=1298520
+mem_heap_B=180414
+mem_heap_extra_B=3594
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=1311232
+mem_heap_B=168837
+mem_heap_extra_B=2459
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=1323992
+mem_heap_B=156683
+mem_heap_extra_B=1853
+mem_stacks_B=0
+heap_tree=detailed
+n5: 156683 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 72704 0x4EBD344: ??? (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n1: 72704 0x40106B8: call_init.part.0 (dl-init.c:72)
+   n1: 72704 0x40107C9: _dl_init (dl-init.c:30)
+    n0: 72704 0x4000C68: ??? (in /lib/x86_64-linux-gnu/ld-2.23.so)
+ n1: 33795 0x4F5616D: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+  n2: 33795 0x4F564B7: std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::operator=(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+   n1: 33795 0x4015A8: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:44)
+    n0: 33795 0x401267: main (prob1.cpp:15)
+   n0: 0 in 1 place, below massif's threshold (1.00%)
+ n1: 32776 0x401532: Vector<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::push_back(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >) (vector.h:41)
+  n0: 32776 0x401267: main (prob1.cpp:15)
+ n1: 17408 0x543D1D3: _IO_file_doallocate (filedoalloc.c:127)
+  n2: 17408 0x544B592: _IO_doallocbuf (genops.c:398)
+   n1: 16384 0x544A69A: _IO_file_underflow@@GLIBC_2.2.5 (fileops.c:556)
+    n1: 16384 0x544B60C: _IO_default_uflow (genops.c:413)
+     n1: 16384 0x5446106: getc (getc.c:38)
+      n1: 16384 0x4F1F15B: __gnu_cxx::stdio_sync_filebuf<char, std::char_traits<char> >::underflow() (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+       n1: 16384 0x4EDAC27: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.24)
+        n0: 16384 0x401205: main (prob1.cpp:11)
+   n0: 1024 in 1 place, below massif's threshold (1.00%)
+ n0: 0 in 3 places, all below massif's threshold (1.00%)
+#-----------
+snapshot=74
+#-----------
+time=1336816
+mem_heap_B=144720
+mem_heap_extra_B=992
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=1349584
+mem_heap_B=132421
+mem_heap_extra_B=523
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=1392392
+mem_heap_B=90112
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=1408784
+mem_heap_B=73728
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
