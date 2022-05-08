@@ -5,7 +5,7 @@ Taylor's getting married or something. Let's give him a sendoff!
 Campfire! Hot dogs, chips, and s'mores will be provided, but if you would like to pitch in (either with more food or money in support of the cause) please feel free and let us know. Please bring whatever yard games/frisbees/anythingelse you would like!
 
 **WHEN**  
-6:30-whenever people leave, Saturday May 14th
+6:30PM to whenever people leave, Saturday May 14th
 
 **WHERE**  
 TBD, but at a campfire site somewhere close.
