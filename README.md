@@ -8,6 +8,6 @@ Campfire! Hot dogs, chips, and s'mores will be provided, but if you would like t
 6:30-whenever people leave, Saturday May 14th
 
 **WHERE**  
-TBD
+TBD, but at a campfire site somewhere close.
 
 Please let us know as soon as you can if you can make it or not. Contact me or Michael Ward with your RSVP or any questions you might have.  (text him at 816-804-8830)
