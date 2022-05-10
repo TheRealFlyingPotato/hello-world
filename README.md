@@ -10,4 +10,4 @@ Saturday May 14th, 6:30PM to whenever people leave
 **WHERE**  
 TBD, but at a campfire site somewhere close.
 
-Please let us know as soon as you can if you can make it or not. Contact me with your RSVP or any questions you might have.
+Please let us know as soon as you can if you can make it or not. Contact me or Michael Ward (by text, 816-804-8830) with your RSVP or any questions you might have.
