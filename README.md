@@ -10,4 +10,4 @@ Campfire! Hot dogs, chips, s'mores, and Mountain Dew will be provided, but if yo
 **WHERE**  
 TBD, but at a campfire site somewhere close.
 
-Please let us know as soon as you can if you can make it or not. Contact me or Michael Ward with your RSVP or any questions you might have.  (text him at 816-804-8830)
+Please let us know as soon as you can if you can make it or not. Contact me with your RSVP or any questions you might have.
