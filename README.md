@@ -1,5 +1,5 @@
 ## TAYLOR'S BACHELOR PARTY
-Taylor's getting married or something. Let's give him a sendoff!
+Taylor's getting married or something.
 
 **WHAT**  
 Campfire! Hot dogs, chips, s'mores, and Mountain Dew will be provided, but if you would like to pitch in (either with more food or money in support of the cause) please feel free and let us know. Please bring whatever yard games/frisbees/anythingelse you would like to play while we hang out!
