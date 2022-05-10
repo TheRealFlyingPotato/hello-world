@@ -1,4 +1,4 @@
-## TAYLOR'S BACHELOR PARTY
+## TAYLOR MORRISON'S BACHELOR PARTY
 Taylor's getting married or something.
 
 **WHAT**  
